@@ -1,0 +1,12 @@
+@keyframes fade {
+    from { /* начало */
+        opacity: 0.1; /* прозрачность */ 
+    }
+    to { /* конец */
+        opacity: 1; 
+    }
+}
+.fade {
+    animation-name: fade; /* имя */
+    animation-duration: 1.5s; /* длительность */
+}
